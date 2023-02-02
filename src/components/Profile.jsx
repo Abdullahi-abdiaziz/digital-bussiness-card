@@ -9,7 +9,7 @@ export default function Profile() {
             <h5 className="profile__career">Frontend Developer</h5>
             <a href="#" className="profile__link">abdallah website</a>
             <button className="profile__btn">
-                    <HiOutlineMail size={20} fontWeight={700}/>
+                    <HiOutlineMail size={20} fontWeight={700} />
                     <p className="profile__email">Email</p>
             </button>
         </header>

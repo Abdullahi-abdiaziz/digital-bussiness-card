@@ -24,18 +24,18 @@ html {
 body {
     display: grid;
     place-items: center;
-    height: 868px;
     font-size: 1.6rem;
     background: var(--body-bg);
+    height: 868px;
 }
 .container {
     max-width: 317px;
     width: 100%;
 }
 .profile {
-    border-radius: 1rem 1rem 0 0;
     background: var(--section-bg);
     text-align: center;
+    border-radius: 1rem 1rem 0 0;
 }
 .profile__image {
     width: 317px;
@@ -53,24 +53,24 @@ body {
     color: var(--orange-20);
 }
 .profile__link {
-    text-decoration: none;
     font-size: 1rem;
     color: var(--white-90);
+    text-decoration: none;
 }
 .profile__btn {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
-    margin: 1rem auto auto;
-    background: var(--white-100);
-    width: 80%;
-    padding: 1rem;
     font-size: 1.4rem;
     font-weight: 600;
+    background: var(--white-100);
+    width: 80%;
+    margin: 1rem auto auto;
+    padding: 1rem;
     border: none;
     border-radius: .5rem;
-    outline: none;
+    outline-color: transparent;
 }
 .main {
     background: var(--section-bg);
